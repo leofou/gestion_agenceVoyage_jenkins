@@ -1,7 +1,7 @@
 node {
 
 stage('SCM'){
- git 'https://github.com/leofou/test_projet_jenkins.git'
+ git 'https://github.com/leofou/gestion_agenceVoyage_jenkins/blob/master/gestionAgenceVoyage'
 }
 
 stage('Compile'){
